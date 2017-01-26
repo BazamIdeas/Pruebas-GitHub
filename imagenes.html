@@ -1,0 +1,52 @@
+<hmtl>
+	<style type="text/css">
+		.row {display: flex;}
+		.column{display: flex; flex-direction: column;}
+		.padre{width: 1200px; height: 900px;}
+		.re-nieto .row > img {height: 49%;}
+		.hijo{width: 100%;}
+		.segunda_columna {width: 30%;}
+		.segunda_columna img:first-child { height: 35%; }
+		.primera_columna {width: 70%;}
+		.img_unica {width: 40%;}
+		.hijo_1 img {margin:0 1% 1% 0;}
+		.hijo_2 img {width: 50%;}
+		.hijo_2 img:first-child {margin-right: 1% !important; width: 49% !important;}
+		.tatara-nieto {width: 60%; }
+	</style>
+
+	<body>
+		<div class="padre">
+			<div class="hijo_1">
+				<div class="nieto">
+					<div class="re-nieto column">
+						<div class="row">
+							<div class="column primera_columna">
+								<div class="row">
+									<img class="img_unica" src="http://aslimites.liderlogos.com/wp-content/uploads/2017/01/Imagen-1-color.png">
+									<div class="tatara-nieto column">
+										<img src="http://aslimites.liderlogos.com/wp-content/uploads/2017/01/Imagen-2-color.png">
+										<img src="http://aslimites.liderlogos.com/wp-content/uploads/2017/01/Imagen-4-color.png">
+									</div>
+								</div>
+								<img src="http://aslimites.liderlogos.com/wp-content/uploads/2017/01/Imagen-5-color.png">
+							</div>
+
+							<div class="column segunda_columna">
+								<img src="http://aslimites.liderlogos.com/wp-content/uploads/2017/01/Imagen-4-color.png">
+								<img src="http://aslimites.liderlogos.com/wp-content/uploads/2017/01/Imagen-6-color.png">
+							</div>
+
+						</div>
+						
+					</div>
+				</div>
+			</div>
+
+			<div class="hijo_2 row">
+				<img src="http://aslimites.liderlogos.com/wp-content/uploads/2017/01/Imagen-7-color.png">
+				<img src="http://aslimites.liderlogos.com/wp-content/uploads/2017/01/Imagen-8-color.png">
+			</div>
+		</div>
+	</body>
+</html>
